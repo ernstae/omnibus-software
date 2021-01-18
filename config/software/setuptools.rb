@@ -25,27 +25,32 @@ dependency "python3"
 
 version "0.9.8" do
   source md5: "243076241781935f7fcad370195a4291"
-  source url: "https://pypi.python.org/packages/source/s/setuptools/setuptools-#{version}.tar.gz"
+  source url: "https://pypi.org/packages/source/s/setuptools/setuptools-#{version}.tar.gz"
 end
 
 version "0.7.7" do
   source md5: "0d7bc0e1a34b70a97e706ef74aa7f37f"
-  source url: "https://pypi.python.org/packages/source/s/setuptools/setuptools-#{version}.tar.gz"
+  source url: "https://pypi.org/packages/source/s/setuptools/setuptools-#{version}.tar.gz"
 end
 
 version "20.0" do
   source md5: "fb22b2474ca037e0b08f3c3b293e02e6"
-  source url: "https://pypi.python.org/packages/source/s/setuptools/setuptools-#{version}.tar.gz"
+  source url: "https://pypi.org/packages/source/s/setuptools/setuptools-#{version}.tar.gz"
 end
 
 version "41.0.1" do
   source md5: "6404ca798bb9a9073aff3b91b2df35c8"
-  source url: "https://pypi.python.org/packages/source/s/setuptools/setuptools-#{version}.zip"
+  source url: "https://pypi.org/packages/source/s/setuptools/setuptools-#{version}.zip"
 end
 
 version "45.1.0" do
   source md5: "98bd6ed6144cff67854e8c0827bd56fb"
-  source url: "https://pypi.python.org/packages/source/s/setuptools/setuptools-#{version}.zip"
+  source url: "https://pypi.org/packages/source/s/setuptools/setuptools-#{version}.zip"
+end
+
+version "51.3.3" do
+  source md5: "83c2360e359139957c41c0798b2f4b67"
+  source url: "https://pypi.org/packages/source/s/setuptools/setuptools-#{version}.tar.gz"
 end
 
 relative_path "setuptools-#{version}"
