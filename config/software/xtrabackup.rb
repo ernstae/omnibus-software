@@ -6,6 +6,7 @@ dependency "libffi"
 
 version("2.4.12") { source md5: "c086206421a77f7c1ad28771a75cf396" }
 version("2.4.13") { source md5: "f8a5170e0e6a6b26125ba935298452c1" }
+version("2.4.21") { source md5: "730c00feec1e71157c86e271985c473a" }
 
 source url: "https://s3.amazonaws.com/twindb-release/percona-xtrabackup-#{version}.tar.gz"
 
